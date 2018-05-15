@@ -42,6 +42,15 @@ public class DependsOnMethods_Annotation_Test {
 
 	}
 
+	@Test(dependsOnMethods = "Logout_Test", alwaysRun = true)
+	public void Quit_Application_Test() {
+		// alwaysRun attribute will make sure to execute this test even if the dependent
+		// test 'Logout_Test' execution failed.
+
+		// NOTE: this is not alternative to @AfterClass
+		System.out.println("Quit the application"); // Eg: Use driver.quit(); for selenium
+	}
+
 	@AfterClass
 	public void CleanUpCode() {
 		// Independent of test executions being pass or fail, this code will help
@@ -49,4 +58,12 @@ public class DependsOnMethods_Annotation_Test {
 		// Eg: Use driver.quit(); for selenium
 		System.out.println("CleanUpCode");
 	}
+
+	// HARD Dependency: @Test(dependsOnMethods={"FirstTest"})
+	// dependsOnMethods -> determines order of execution and will be skipped if
+	// 'FirstTest' Fails
+
+	// SOFT Dependency: @Test(dependsOnMethods={"FirstTest"}, alwaysRun = true)
+	// dependsOnMethods -> determines order of execution and 'alwaysRun' will make
+	// sure the test runs even if 'FirstTest' failed
 }

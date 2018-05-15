@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<!-- Executing one or more programs using TestNG via XML file -->
+
+<suite name="Ecommerce_Suite">
+	<test name="UserTest">
+		<classes>
+			<class name="PackageName.JavaClass1Name" />
+			<class name="PackageName.JavaClass2Name" />
+			<class name="PackageName.JavaClass3Name" />
+		</classes>
+	</test>
+	<test name="MobileSuite">
+		<classes>
+			<class name="PackageName.JavaClass1Name" />
+			<class name="PackageName.JavaClass2Name" />
+			<class name="PackageName.JavaClass3Name" />
+		</classes>
+	</test>
+	<test name="AndroidSuite">
+		<classes>
+			<class name="PackageName.JavaClass1Name" />
+			<class name="PackageName.JavaClass2Name" />
+			<class name="PackageName.JavaClass3Name" />
+		</classes>
+	</test>
+</suite>	

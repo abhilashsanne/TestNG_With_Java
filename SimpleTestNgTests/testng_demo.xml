@@ -1,6 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Executing one or more programs using TestNG via XML file -->
 
+
+<!-- This file runs all tests under class 'SimpleIndividualTests' -->
 <suite name="RunName_RegressionSuite">
 	<!-- A suite is represented by one XML file. It can contain one or more 
 		tests -->
@@ -20,3 +23,5 @@
 		</classes>
 	</test>
 </suite>	
+
+<!-- Refer document "XML_Execution.xml" for reference -->
