@@ -1,0 +1,10 @@
+Prerequisites: Java is installed and environment path is configured
+
+
+Compile the Test case classes using javac.
+C:\TestNG_WORKSPACE>javac EmployeeDetails.java EmpBusinessLogic.java SimpleIndividualTests_EmployeeDetails.java
+
+Now TestNG with the following command −
+C:\TestNG_WORKSPACE>java -cp "C:\TestNG_WORKSPACE" org.testng.TestNG testng.xml
+
+The output can be seen in the console and also in the html report created by TestNG in folder "test-output"

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RunName_RegressionSuite">
+	<!-- A suite is represented by one XML file. It can contain one or more 
+		tests -->
+	<test name="ModuleName_Priority1">
+		<!-- Represents one test and can contain one or more TestNG classes -->
+		<classes>
+			<!-- Each class represents a TestNG class It is a Java class that contains 
+				at least one TestNG annotation. It can contain one or more test methods. -->
+			<class
+				name="TestNg_Java_CheatSheet.SimpleTestNgTests.SimpleIndividualTests" />
+		</classes>
+	</test>
+	<test name="TestEmployeeDetails ">
+		<classes>
+			<class
+				name="TestNg_Java_CheatSheet.SimpleTestNgTests.SimpleIndividualTests_EmployeeDetails" />
+		</classes>
+	</test>
+</suite>	
