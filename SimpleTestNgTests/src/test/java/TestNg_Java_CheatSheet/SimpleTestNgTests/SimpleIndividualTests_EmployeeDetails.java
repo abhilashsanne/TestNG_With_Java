@@ -1,6 +1,10 @@
 package TestNg_Java_CheatSheet.SimpleTestNgTests;
 
 import org.testng.annotations.*;
+
+import TestNg_Java_CheatSheet.SimpleTestNgTests.EmpBusinessLogic;
+import TestNg_Java_CheatSheet.SimpleTestNgTests.EmployeeDetails;
+
 import org.testng.Assert;
 
 public class SimpleIndividualTests_EmployeeDetails {

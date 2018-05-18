@@ -3,15 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNg_Java_CheatSheet.SimpleTestNgTests.SimpleIndividualTests_EmployeeDetails"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.ExpectedException_Tests"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.Priority_Annotation_Tests"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.BeforeClass_AfterClass_Tests"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.BeforeMethod_AfterMethod_Tests"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.BeforeGroups_AfterGroups_Tests"/>
-      <class name="TestNg_Java_CheatSheet.SimpleTestNgTests.SimpleIndividualTests"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.UsingTestNgAnnotations"/>
-      <class name="TestNg_Java_CheatSheet.AnnotationsTests.Description_Annotation_Tests"/>
+      <class name="TestNg_Java_CheatSheet.ParallelTestExecution.Parallel_Methods_Tests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

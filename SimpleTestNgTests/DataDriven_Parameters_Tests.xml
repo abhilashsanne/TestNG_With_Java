@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <parameter name="author" value="Robin Sharma" /> <parameter name="bookTitle" 
+		value="The Monk Who Sold His Ferrari " /> -->
+	<test name="Test">
+		<parameter name="author" value="Robin Sharma" />  <!-- Comment parameter 'author' to test output of test_OptionalParameterWithXML -->
+		<parameter name="bookTitle"
+			value="The Monk Who Sold His Ferrari " />
+		<classes>
+			<class
+				name="TestNg_Java_CheatSheet.DataDrivenAnnotationTests.DataDriven_Parameters_Tests">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
